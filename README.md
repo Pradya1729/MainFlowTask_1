@@ -43,3 +43,4 @@ o Implement media queries to ensure mobile-friendliness.
 • Ensure navigation is easy to use on both desktop and mobile.
 • Improve clickability and tap-friendliness for links.
 • Add hover effects for a smooth user experience
+
