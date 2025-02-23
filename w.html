@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background:#2e0505;
+            color: white;
+            position:relative;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .products {
+            padding: 46px;
+            text-align: center;
+            background: url('g.jpg') repeat center center / cover;
+            flex-grow: 1;
+        }
+        .products h1{
+            color:white;
+        }
+        .product {
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .product-info {
+            text-align: left;
+            color: #f4f4f4;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background:#2e0505;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MySite</div>
+        <nav>
+            <ul>
+                <li><a href="ht.html">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="products">
+        <h1 >Our Product</h1>
+        <div class="product">
+            <img src="sugar.jpg" alt="Sugar">
+            <div class="product-info">
+                <h2>Sugar</h2>
+                <p>Pure and refined sugar for all your sweet needs. Available in different packaging sizes.</p>
+                <p><strong>Price:</strong> $2 per kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="wheat.jpg" alt="Wheat">
+            <div class="product-info">
+                <h2>Wheat</h2>
+                <p>High-quality wheat, perfect for making chapatis and bread. Sourced from the best farms.</p>
+                <p><strong>Price:</strong> $1.5 per kg</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="rice.jpg" alt="Rice">
+            <div class="product-info">
+                <h2>Rice</h2>
+                <p>Premium quality rice, perfect for daily meals. Long grain and aromatic varieties available.</p>
+                <p><strong>Price:</strong> $3 per kg</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 MySite | Privacy Policy | Terms of Service</p>
+    </footer>
+</body>
+</html>
